@@ -55,8 +55,8 @@ app.post('/api/signup', (req, res) => {
 app.post('/api/buy-premium', (req, res) => {
     const { userId, amount } = req.body;
     
-    if (amount < 9.99) {
-        return res.status(400).json({ error: "Minimum price is $9.99" });
+    if (amount < 499) {
+        return res.status(400).json({ error: "Minimum price is ₹499" });
     }
     
     const user = users.find(u => u.id === userId);
