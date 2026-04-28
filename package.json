@@ -1,0 +1,12 @@
+{
+  "name": "hospitality-hub",
+  "version": "1.0.0",
+  "description": "Hospitality jobs and education platform",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2"
+  }
+}
