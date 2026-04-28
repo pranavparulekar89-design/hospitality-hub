@@ -59,7 +59,7 @@
         <div class="premium-box">
             <h2>✨ Premium Service ✨</h2>
             <p>Resume review • Interview coaching • Exclusive courses • Career consultation</p>
-            <p><strong>Minimum price: $9.99</strong></p>
+            <p><strong>Minimum price: ₹499</strong></p>
             <button onclick="buyPremium()">Get Premium Access →</button>
         </div>
         
@@ -108,11 +108,11 @@
         }
         
         function buyPremium() {
-            let price = prompt("Enter amount (minimum $9.99):", "9.99");
-            if (price >= 9.99) {
+            let price = prompt("Enter amount (minimum ₹499):", "499");
+            if (price >= 499) {
                 alert("💳 Redirecting to secure payment...\n(This would connect to Stripe in real version)");
             } else {
-                alert("❌ Minimum premium price is $9.99");
+                alert("❌ Minimum premium price is ₹499");
             }
         }
         
